@@ -91,7 +91,7 @@ export class About { }
   { path: '/', component: Home, name: 'Home', useAsDefault: true },
   { path: '/home', component: Home, name: 'Home' },
   { path: '/about', component: About, name: 'About' },
-  { path: '/**', redirectTo: ['Home'] }
+  //{ path: '/**', redirectTo: ['Home'] }
 ])
 export class App {
   title: string = 'ftw';
